@@ -51,27 +51,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	*p = 0;
 	return (char_ptr);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (*(s + i))
-		++i;
-	return (i);
-}
-
-int	main(void)
-{
-	char const	sep[] = "12";
-	char const	s1[] = "12JOINF the trim121212221";
-	char *p;
-
-	printf("%s", p = ft_strtrim(s1, sep));
-	free(p);
-	return (0);
-}*/
