@@ -21,15 +21,3 @@ void	*ft_bzero(void *s, size_t n)
 		*ptr++ = '\0';
 	return (s);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-    char	dest[10];
-
-    ft_bzero(dest, 5);
-	printf("5 0's: %s", dest);
-	return (0);
-}*/
