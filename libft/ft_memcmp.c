@@ -24,15 +24,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		return (0);
 	return (*(unsigned char *)s1 - *(unsigned char *)s2);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-	const char	str1[] = "A\0BCA";
-	const char	str2[] = "A\0BCa";
-
-	printf("%d", ft_memcmp(str1, str2, 5));
-	return (0);
-}*/
