@@ -21,12 +21,3 @@ size_t	ft_strlen(const char *s)
 		++i;
 	return (i);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int main(void)
-{
-	printf("39: %zu", ft_strlen("Moments lost in time like tears in rain"));
-	return (0);
-}*/
