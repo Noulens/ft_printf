@@ -19,16 +19,3 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-
-/*#include <stdio.h>
-#include <ctype.h>
-#include <unistd.h>
-
-int main()
-{
-    int c = ft_toupper ('c');
-   printf("%d", ft_toupper('c'));
-   write(1, &c, 2);
-
-    return 0;
-}*/
