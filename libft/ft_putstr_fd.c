@@ -26,19 +26,3 @@ void	ft_putstr_fd(char *s, int fd)
 		}
 	}
 }
-
-/*#include <unistd.h>
-
-void	ft_putchar_fd(char c, int fd)
-{
-	write(fd, &c, sizeof(c));
-}
-
-int	main(void)
-{
-	char	s[] = "Voici une chaine test \t.\n.";
-	int		fd = 1;
-
-	ft_putstr_fd(s, fd);
-	return (0);
-}*/
