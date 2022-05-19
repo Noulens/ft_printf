@@ -25,15 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	else
 		return (*(unsigned char *)s1 - *(unsigned char *)s2);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-	char	s1[] = {"aa "};
-	char	s2[] = {"aa~"};
-
-	printf("%d", ft_strncmp(s1, s2, 3510));
-	return (0);
-}*/
