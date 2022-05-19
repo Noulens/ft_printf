@@ -21,16 +21,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*ptr++ = *(char *)src++;
 	return (dest);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-  	char src[] = "The boss";
-  	char dest[] = "The noob";
-    
-	ft_memcpy(dest, src, 6);
-	printf("%s-> %s", src, dest);
-	return (0);
-}*/
