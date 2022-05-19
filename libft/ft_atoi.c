@@ -35,14 +35,4 @@ int	ft_atoi(const char *nptr)
 	return (sign * result);
 }
 
-/*#include <stdlib.h>
-#include <stdio.h>
 
-int	main(void)
-{
-	char str[] = {"\n   \v   \f  \r \t -2147483648frfrfrfrfr564"};
-	//char str[] = {""};
-	printf("%d\n", ft_atoi(str));
-	printf("%d\n", atoi(str));
-	return (0);
-}*/
