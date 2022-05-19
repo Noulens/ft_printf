@@ -21,16 +21,3 @@ void	*ft_memset(void *s, int c, size_t n)
 		*ptr++ = c;
 	return (s);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-    char	dest[50];
-    char	ch = 'a';
-
-    ft_memset(dest, ch, 50);
-	printf("50 0's: %s", dest);
-	return (0);
-}*/
