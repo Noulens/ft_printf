@@ -33,14 +33,3 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (NULL);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-	int c = '\0';
-	char	str[] = "ABCD";
-	printf("%p, %p", ft_strchr(str, c), &str[4]);
-    return 0;
-}*/
