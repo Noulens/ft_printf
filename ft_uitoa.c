@@ -53,11 +53,3 @@ char	*ft_uitoa(unsigned int nbr)
 	return (res);
 }
 
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int main ()
-{
-	printf("%s", ft_uitoa(4294967295));
-	return 0;
-}*/
