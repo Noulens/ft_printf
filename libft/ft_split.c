@@ -100,26 +100,3 @@ char	**ft_split(char const *s, char c)
 	spltd[i] = 0;
 	return (spltd);
 }
-
-/*#include <stdlib.h>
-#include <stdio.h>
-
-size_t	ft_strlen(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (*(s + i))
-		++i;
-	return (i);
-}
-
-int	main(void)
-{
-	const char	s[] = "voici\tle\ttest\tultime\tde la mort\t!";
-	char **tab;
-	tab = ft_split(s, '\t');
-	printf("%s\n", *tab);
-	free(tab);
-	return (0);
-}*/
