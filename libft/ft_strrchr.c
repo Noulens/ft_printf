@@ -30,24 +30,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (*(s + i))
-		++i;
-	return (i);
-}
-
-int main()
-{
-	int c = 'D';
-	char	str[] = "DABC";
-	printf("%p, %p", ft_strrchr(str, c), &str[0]);
-    return 0;
-}*/
