@@ -57,12 +57,3 @@ char	*ft_itoa(int nbr)
 		res[0] = '-';
 	return (res);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int main ()
-{
-	printf("%s", ft_itoa(4294967295));
-	return 0;
-}*/
