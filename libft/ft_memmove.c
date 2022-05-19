@@ -31,16 +31,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			*(dest_ptr++) = *(src_ptr++);
 	return (dest);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-  	char src[] = "The boss";
-  	char dest[] = "The noob";
-    
-	ft_memmove(dest, src, 0);
-	printf("%s-> %s", src, dest);
-	return (0);
-}*/
