@@ -16,15 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, sizeof(c));
 }
-
-/*
-#include <unistd.h>
-
-int	main(void)
-{
-	char	c = ';';
-	int		fd = 1;
-
-	ft_putchar_fd(c, fd);
-	return (0);
-}*/
