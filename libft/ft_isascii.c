@@ -16,11 +16,3 @@ int	ft_isascii(int c)
 {
 	return ((c & 0x7f) == c);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d", ft_isascii(L'¶'));
-	return (0);
-}*/
