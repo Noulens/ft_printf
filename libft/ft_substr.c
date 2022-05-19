@@ -37,26 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	*char_ptr = 0;
 	return (p);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (*(s + i))
-		++i;
-	return (i);
-}
-
-int main(void)
-{
-	char const	s[] = "0123456789";
-	char *p;
-
-	printf("%s", p = ft_substr(s, 9, 10));
-	free(p);
-	return (0);
-}*/
