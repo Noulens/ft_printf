@@ -27,19 +27,3 @@ void	ft_putendl_fd(char *s, int fd)
 		ft_putchar_fd('\n', fd);
 	}
 }
-
-/*#include <unistd.h>
-
-void	ft_putchar_fd(char c, int fd)
-{
-	write(fd, &c, sizeof(c));
-}
-
-int	main(void)
-{
-	char	s[] = "Voici une chaine test \t..";
-	int		fd = 1;
-
-	ft_putendl_fd(s, fd);
-	return (0);
-}*/
