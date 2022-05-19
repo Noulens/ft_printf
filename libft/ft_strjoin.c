@@ -30,35 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	*p = 0;
 	return (char_ptr);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (*(s + i))
-		++i;
-	return (i);
-}
-
-int	main(void)
-{
-	char	s1[] = "Niiiiiiiiiiiiiiiiiiiiiiiiiiiice";
-	char	s2[] = "join";
-
-	printf("%s", ft_strjoin(s1, s2));
-	return (0);
-}*/
-
-/*#include <stdio.h>
-
-char *ft_strjoin(int size, char **strs, char *sep);
-
-int	main(int argc, char **argv)
-{
-	printf("./ex03/output___said___this___is___a___success :\n");
-	printf("%s\n",  ft_strjoin(argc, argv, "___"));
-}*/
