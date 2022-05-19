@@ -35,17 +35,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-/*#include <string.h>
-#include <stdio.h>
-#include <bsd/string.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-
-char haystack[30] = "aaabcabcd";
-
-printf("%s:%s\n", ft_strnstr(haystack, "cd", 8), strnstr(haystack, "cd", 8));
-  return (0);
-}*/
